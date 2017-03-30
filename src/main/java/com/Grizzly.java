@@ -9,7 +9,7 @@ public class Grizzly {
 
     public static void main(String[] args) throws Exception {
 
-        HttpServer server  = HttpServer.createSimpleServer("/", 8081);
+        HttpServer server  = HttpServer.createSimpleServer("/", 8080);
         WebappContext ctx = new WebappContext("api");
         ServletRegistration jerseyServlet = ctx.addServlet("jersey",
                 org.glassfish.jersey.servlet.ServletContainer.class);
