@@ -1,0 +1,6 @@
+packaging:
+  add:
+    - target/${project.build.finalName}-jar-with-dependencies.jar
+    - src/main/bin
+tags:
+    - ${project.artifactId}:latest
