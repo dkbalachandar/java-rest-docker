@@ -10,8 +10,9 @@ import javax.ws.rs.core.Response;
 public class HelloWorldResource {
 
     @GET
-    @Produces(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.TEXT_PLAIN)
     public Response sayHello(){
-        return Response.ok().entity("\"Hello World\"").build();
+        System.out.println("sayHello");
+        return Response.ok().entity("Hello World").build();
     }
 }

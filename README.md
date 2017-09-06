@@ -13,3 +13,6 @@ Steps to run this.
          docker ps
     b) Then stop the container by running below,
         docker stop CONTAINER_ID
+				
+I have added Users service and Filtring logic.
+
