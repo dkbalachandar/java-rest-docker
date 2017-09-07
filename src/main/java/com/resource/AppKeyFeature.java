@@ -9,6 +9,7 @@ import javax.ws.rs.core.FeatureContext;
 import java.util.Arrays;
 import java.util.List;
 
+//Uncomment the below line if you want to use Dynamic binding. Refer more information in the ReadMe file
 //@Provider
 public class AppKeyFeature implements DynamicFeature {
 
