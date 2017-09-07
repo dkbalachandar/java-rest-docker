@@ -16,6 +16,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
 
+@AppKeyVerifier
 @Path("users")
 public class UserResource {
 
