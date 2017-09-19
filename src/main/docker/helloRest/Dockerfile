@@ -12,4 +12,4 @@ CMD ["/opt/bin/run.sh"]
 
 EXPOSE 8080
 
-HEALTHCHECK --interval=45s --timeout=3s CMD curl -I "localhost:8080/api/greeting" | grep "HTTP/1.1 200 OK"
+HEALTHCHECK --interval=1m --timeout=3s CMD curl -f http://localhost:8080/api/greeting || exit 1
